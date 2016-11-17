@@ -24,4 +24,5 @@
     });
     $("#deliveryDate").val((new Date()).toLocaleDateString());
     $("#deliveryDate").change();
+    $("#amount").change();
 })();
